@@ -1,0 +1,18 @@
+.contenedorUbicacion{
+    width: 100%;
+    margin: auto;
+    background-color: #006845;
+    font-size: 1.5rem;
+    border: 3px solid rgba(0, 0, 0, 0.321);
+    border-radius: 2rem;
+    width: 80rem;
+    @include flexCenterColumn;
+}
+.Mapa{
+    width: 50rem;
+    margin-bottom: 2rem;
+}
+
+.direccion{
+    @include flexCenterColumn;
+}
